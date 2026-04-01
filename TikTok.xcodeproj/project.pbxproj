@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A1D33B2F73EF0300024E2F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17A1D33A2F73EF0300024E2F /* FirebaseAuth */; };
+		17A1D33D2F73EF0300024E2F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17A1D33C2F73EF0300024E2F /* FirebaseFirestore */; };
+		17A1D33F2F73EF0300024E2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 17A1D33E2F73EF0300024E2F /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178D4C232F6EAAD0004B17CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178D4C0D2F6EAACE004B17CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178D4C142F6EAACE004B17CC;
+			remoteInfo = TikTok;
+		};
+		178D4C2D2F6EAAD0004B17CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178D4C0D2F6EAACE004B17CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178D4C142F6EAACE004B17CC;
+			remoteInfo = TikTok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178D4C152F6EAACE004B17CC /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D4C222F6EAAD0004B17CC /* TikTokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D4C2C2F6EAAD0004B17CC /* TikTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		178D4C252F6EAAD0004B17CC /* TikTokTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TikTokTests;
+			sourceTree = "<group>";
+		};
+		178D4C2F2F6EAAD0004B17CC /* TikTokUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TikTokUITests;
+			sourceTree = "<group>";
+		};
+		178D4C4A2F6EAB0C004B17CC /* TikTok */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TikTok;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178D4C122F6EAACE004B17CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A1D33B2F73EF0300024E2F /* FirebaseAuth in Frameworks */,
+				17A1D33D2F73EF0300024E2F /* FirebaseFirestore in Frameworks */,
+				17A1D33F2F73EF0300024E2F /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C1F2F6EAAD0004B17CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C292F6EAAD0004B17CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178D4C0C2F6EAACE004B17CC = {
+			isa = PBXGroup;
+			children = (
+				178D4C4A2F6EAB0C004B17CC /* TikTok */,
+				178D4C252F6EAAD0004B17CC /* TikTokTests */,
+				178D4C2F2F6EAAD0004B17CC /* TikTokUITests */,
+				178D4C162F6EAACE004B17CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178D4C162F6EAACE004B17CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178D4C152F6EAACE004B17CC /* TikTok.app */,
+				178D4C222F6EAAD0004B17CC /* TikTokTests.xctest */,
+				178D4C2C2F6EAAD0004B17CC /* TikTokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178D4C142F6EAACE004B17CC /* TikTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D4C362F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTok" */;
+			buildPhases = (
+				178D4C112F6EAACE004B17CC /* Sources */,
+				178D4C122F6EAACE004B17CC /* Frameworks */,
+				178D4C132F6EAACE004B17CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				178D4C4A2F6EAB0C004B17CC /* TikTok */,
+			);
+			name = TikTok;
+			packageProductDependencies = (
+				17A1D33A2F73EF0300024E2F /* FirebaseAuth */,
+				17A1D33C2F73EF0300024E2F /* FirebaseFirestore */,
+				17A1D33E2F73EF0300024E2F /* FirebaseStorage */,
+			);
+			productName = TikTok;
+			productReference = 178D4C152F6EAACE004B17CC /* TikTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178D4C212F6EAAD0004B17CC /* TikTokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D4C392F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTokTests" */;
+			buildPhases = (
+				178D4C1E2F6EAAD0004B17CC /* Sources */,
+				178D4C1F2F6EAAD0004B17CC /* Frameworks */,
+				178D4C202F6EAAD0004B17CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178D4C242F6EAAD0004B17CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				178D4C252F6EAAD0004B17CC /* TikTokTests */,
+			);
+			name = TikTokTests;
+			packageProductDependencies = (
+			);
+			productName = TikTokTests;
+			productReference = 178D4C222F6EAAD0004B17CC /* TikTokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178D4C2B2F6EAAD0004B17CC /* TikTokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D4C3C2F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTokUITests" */;
+			buildPhases = (
+				178D4C282F6EAAD0004B17CC /* Sources */,
+				178D4C292F6EAAD0004B17CC /* Frameworks */,
+				178D4C2A2F6EAAD0004B17CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178D4C2E2F6EAAD0004B17CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				178D4C2F2F6EAAD0004B17CC /* TikTokUITests */,
+			);
+			name = TikTokUITests;
+			packageProductDependencies = (
+			);
+			productName = TikTokUITests;
+			productReference = 178D4C2C2F6EAAD0004B17CC /* TikTokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178D4C0D2F6EAACE004B17CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					178D4C142F6EAACE004B17CC = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					178D4C212F6EAAD0004B17CC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 178D4C142F6EAACE004B17CC;
+					};
+					178D4C2B2F6EAAD0004B17CC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 178D4C142F6EAACE004B17CC;
+					};
+				};
+			};
+			buildConfigurationList = 178D4C102F6EAACE004B17CC /* Build configuration list for PBXProject "TikTok" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178D4C0C2F6EAACE004B17CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				17A1D3392F73EF0300024E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 178D4C162F6EAACE004B17CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178D4C142F6EAACE004B17CC /* TikTok */,
+				178D4C212F6EAAD0004B17CC /* TikTokTests */,
+				178D4C2B2F6EAAD0004B17CC /* TikTokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178D4C132F6EAACE004B17CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C202F6EAAD0004B17CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C2A2F6EAAD0004B17CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178D4C112F6EAACE004B17CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C1E2F6EAAD0004B17CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D4C282F6EAAD0004B17CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178D4C242F6EAAD0004B17CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178D4C142F6EAACE004B17CC /* TikTok */;
+			targetProxy = 178D4C232F6EAAD0004B17CC /* PBXContainerItemProxy */;
+		};
+		178D4C2E2F6EAAD0004B17CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178D4C142F6EAACE004B17CC /* TikTok */;
+			targetProxy = 178D4C2D2F6EAAD0004B17CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		178D4C342F6EAAD0004B17CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178D4C352F6EAAD0004B17CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178D4C372F6EAAD0004B17CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178D4C382F6EAAD0004B17CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178D4C3A2F6EAAD0004B17CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTok";
+			};
+			name = Debug;
+		};
+		178D4C3B2F6EAAD0004B17CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTok";
+			};
+			name = Release;
+		};
+		178D4C3D2F6EAAD0004B17CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTok;
+			};
+			name = Debug;
+		};
+		178D4C3E2F6EAAD0004B17CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2BLUUAQR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suraj.TikTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178D4C102F6EAACE004B17CC /* Build configuration list for PBXProject "TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D4C342F6EAAD0004B17CC /* Debug */,
+				178D4C352F6EAAD0004B17CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D4C362F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D4C372F6EAAD0004B17CC /* Debug */,
+				178D4C382F6EAAD0004B17CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D4C392F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D4C3A2F6EAAD0004B17CC /* Debug */,
+				178D4C3B2F6EAAD0004B17CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D4C3C2F6EAAD0004B17CC /* Build configuration list for PBXNativeTarget "TikTokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D4C3D2F6EAAD0004B17CC /* Debug */,
+				178D4C3E2F6EAAD0004B17CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17A1D3392F73EF0300024E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17A1D33A2F73EF0300024E2F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17A1D3392F73EF0300024E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		17A1D33C2F73EF0300024E2F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17A1D3392F73EF0300024E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		17A1D33E2F73EF0300024E2F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17A1D3392F73EF0300024E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 178D4C0D2F6EAACE004B17CC /* Project object */;
+}
